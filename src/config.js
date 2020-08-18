@@ -1,0 +1,23 @@
+const config = {};
+config.gridLength = 8;
+config.minPasswordLength = 8;
+config.requiredFieldErrorMsg = 'This field is required.';
+config.emailFieldErrorMsg = 'Please enter a valid email.';
+config.passwordFieldErrorMsg = 'Please enter a valid password.';
+config.passwordHint = `Password must be at least ${config.minPasswordLength} characters and should contain at least 1 lowercase, 1 uppercase, 1 number and any special character.`;
+config.signUp = 'Sign Up';
+config.login = 'Log In';
+config.logout = 'Logout';
+config.loginQuestion = 'Already a member?';
+config.signUpQuestion = 'New to us?';
+config.signUpHeader = 'Sign up for a new account';
+config.loginHeader = 'Log-in to your account';
+config.placeholder = {};
+config.placeholder.email = 'E-mail address';
+config.placeholder.password = 'Password';
+config.welcome = 'Welcome';
+config.email = 'Test123@test.com';
+config.password = 'Mypass123#';
+config.dashboardHeader = 'Welcome to Test App';
+
+export default config;
